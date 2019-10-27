@@ -1,0 +1,64 @@
+body {
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  input {
+    background: transparent;
+    border: none;
+    color: #000000;
+    border-left: 2px solid #008080;
+    border-top: 2px solid #008080;
+    padding: 15px;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-bottom: 10px solid black;
+    border-radius: 0;
+  }
+  
+  .row {
+    height: 70px;
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: black;
+    border-top: 2px solid #008080;
+    font-weight: bold;
+    font-size: 10pt;
+    padding-top: 10px;
+  }
+  
+  .past {
+    background-color: lightcoral;
+    color: black;
+    width: 80%;
+  }
+  
+  .present {
+    background-color: lightblue;
+    color: black;
+    width: 80%;
+  }
+  
+  .future {
+    background-color: lightgreen;
+    color: black;
+    width: 80%;
+  }
+  
+  .saveBtn {
+    color: white;
+    border: 2pt solid #008080;
+    border-bottom-right-radius: 20px;
+    background-color: #008080;
+    font-size: 8pt;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  
