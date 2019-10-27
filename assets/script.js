@@ -34,4 +34,9 @@ function liveTime() {
 
 function pgRdy() {
     liveTime();
+    
+};
+
+function saveEntry() {
+
 };

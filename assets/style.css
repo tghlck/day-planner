@@ -18,7 +18,7 @@ body {
     color: black;
     border-bottom: 10px solid #008080;
     border-radius: 0;
-    padding: 2rem 2rem;
+    padding: 2rem 2rem 1rem 2rem;
   }
   
   h1 { 
