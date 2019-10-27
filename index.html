@@ -14,10 +14,12 @@
     <!-- HEADER w/ PAGE INFO & APPEND DATA -> CURRENT DAY/TIME -->
     <header class="jumbotron">
         <h1 class="display-3">Work Day Scheduler</h1>
-        <p class="lead">A simple calendar app for scheduling your work day</p>
+        <p class="lead" id="pageInfo">A simple calendar app for scheduling your work day</p>
+        <hr>
         <p id="currentDay"></p>
     </header>
     <!-- CONTAINER HOLDING TIME BLOCKS -->
+   <hr>
     <div class="container">
         <!--////////////////////-->
         <!-- Timeblocks go here -->
@@ -97,6 +99,11 @@
         <!-- END OF TIME BLOCKS-->
     </div>
 
+    <footer>
+            <hr>
+        <p class="lead" id="bottomText">"Time isn't the main thing.  It's the only thing." - Miles Davis</p>
+    </footer>
+        
 
     <!-- SCRIPTS HERE -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
